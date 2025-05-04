@@ -104,7 +104,7 @@ while (<some-condition-is-true>) {
 
 При використанні realloc():
 ```
-ltrace ./a.out
+ltrace ./zd7
 calloc(1000, 16) = 0x55555575f260
 realloc(0x55555575f260, 8000) = 0x5555557602a0
 free(0x5555557602a0)
@@ -112,7 +112,7 @@ free(0x5555557602a0)
 
 При використанні reallocarray():
 ```
-ltrace ./a.out
+ltrace ./zd7
 calloc(1000, 16) = 0x55555575f260
 reallocarray(0x55555575f260, 500, 16) = 0x5555557602a0
 free(0x5555557602a0)
