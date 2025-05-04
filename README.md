@@ -37,4 +37,4 @@
 У результаті:
 - `malloc(0)` **може повернути `NULL`**,
 - або **може повернути унікальний, але недійсний для доступу вказівник**, який однак **можна передати у `free()` без помилок**.
-![image](https://github.com/user-attachments/assets/7a731e0e-5a69-4ed9-a997-49c4ef577bb1)
+- ![image](https://github.com/user-attachments/assets/7a731e0e-5a69-4ed9-a997-49c4ef577bb1)
